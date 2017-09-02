@@ -1,7 +1,7 @@
-Cross Domain Recommmendation System using Weather Data and Commercial Sales Data
-Database: https://research.chicagobooth.edu/kilts/marketing-databases/dominicks
+# Cross Domain Recommmendation System using Weather Data and Commercial Sales Data
+*Database: https://research.chicagobooth.edu/kilts/marketing-databases/dominicks
 sales data(ccount.dta): http://kilts.chicagobooth.edu/dff/store-demos-customer-count/ccount_stata.zip
-store data(demo.dta): http://kilts.chicagobooth.edu/dff/store-demos-customer-count/demo_stata.zip
+store data(demo.dta): http://kilts.chicagobooth.edu/dff/store-demos-customer-count/demo_stata.zip*
 
 1. Download ccount.dta, demo.dta. Run dtaToCsv, and retailData.csv is generated
 2. Run almanac.py to get output_almanac.csv.
