@@ -16,8 +16,7 @@ def topN(row):
        val = val.index.values #choose only index values
        return str(val) 
 
-df1['MaxByQty'] = df.apply(topN, axis=1)
+df1['MaxByQty'] = df.apply(topN, axis=1) #retrieving top n values for every row
 df1['MaxByNormalizedQty'] = df.div(df.sum(axis=1), axis=0).apply(topN, axis=1) #divide each value by sum
 df1['ByMaxIncrease'] = df.diff().reset_index(drop=True).apply(topN, axis=1) #find increase from last day's data
 df1['ByMaxPercentIncrease'] = df.pct_change().apply(topN, axis=1) #find % increase from last day's data
-
