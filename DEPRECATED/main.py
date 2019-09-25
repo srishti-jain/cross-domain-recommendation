@@ -3,8 +3,8 @@ Gaussian HMM of weather data
 --------------------------
 link : http://api.worldweatheronline.com/premium/v1/past-weather.ashx?key=42299afedf80448c8b2150645171703&q=London&format=json&date=2016-01-01&enddate=2016-02-01
 
-The JSON data from above link is converted to a cvs file. Data is loaded from that csv file.
-Rightnow, one HMM for 1 day. It contains 7 observations per day, for 32 days ( K+LOndon Jan-Feb 2016 )
+The JSON data from above link is converted to a csv file. Data is loaded from that csv file.
+Right now, one HMM for 1 day. It contains 7 observations per day, for 32 days ( K+LOndon Jan-Feb 2016 )
 
 """
 
